@@ -1,13 +1,15 @@
 .table-wrapper { 
     overflow-x:scroll;
-    overflow-x: hidden;
+	overflow-x:hidden;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     width: 500px;
     scroll-behavior: smooth;
 }
-
+body {
+	font-family: sans-serif;
+}
 
 p{
   width: 500px;
@@ -20,4 +22,22 @@ p{
 a{
   margin-left: 10px;
   text-decoration:none
+}
+.foodimage {
+	float: right;
+	width: 320px;
+}
+.top {
+  content: "";
+  clear: both;
+  display: table;
+  font-size: 16pt;
+  width: 500px;
+}
+td {
+	width: 500px;
+	border: 1px solid black;
+}
+table {
+	width: 500px;
 }
