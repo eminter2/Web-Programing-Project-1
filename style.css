@@ -16,7 +16,7 @@ header {
     padding-left: 3px;
     padding-right: 3px;
     height: 100%;
-    width: 500px;
+    width: 505px;
     scroll-behavior: smooth;
     background: rgba(255, 255, 255, .75);
 }
@@ -65,8 +65,10 @@ a {
 }
 
 td {
-    width: 500px;
+    <<<<<<< HEAD width: 500px;
     border: 1px solid black;
+    =======width: 500px;
+    >>>>>>>648a122df3bf7a9b52854125517b1769625c71e7
 }
 
 table {
