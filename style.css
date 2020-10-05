@@ -13,6 +13,8 @@ header {
     overflow-x: hidden;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 3px;
+    padding-right: 3px;
     height: 100%;
     width: 500px;
     scroll-behavior: smooth;
@@ -40,8 +42,8 @@ button {
 }
 
 button:hover:active {
-    background-color: #ddd;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 a {
