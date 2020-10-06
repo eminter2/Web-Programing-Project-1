@@ -1,15 +1,16 @@
 body {
-    background-image: url('book.jpeg');
+    background-color: #615450;
 }
 
 header {
     background-image: url('food-header3.jpg');
     text-align: center;
     font-size: 30px;
-    margin: -5px;
+    margin: -8px;
     border: 5px solid black;
     color: #47460f;
     text-shadow: 0 0 5px #dce4e6, 0 0 10px #dce4e6, 0 0 20px #dce4e6, 0 0 30px #dce4e6, 0 0 40px #dce4e6;
+
 }
 
 .table-wrapper {
@@ -31,6 +32,7 @@ p {
     right: 25%;
     left: 50%;
     margin-left: -150px;
+    top: 880px;
 }
 
 .buttons a:hover {
@@ -88,6 +90,17 @@ img:hover {
     transition-duration: 2s;
     transform: rotate(5deg);
 }
+
+.cookbook{
+  padding-left: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  background-image: url('book.jpeg');  
+  height: 800px;
+}
+
 
 
 /*@keyframes image_glow {
