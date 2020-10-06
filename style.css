@@ -18,10 +18,21 @@ p{
 
 .buttons{
   position: absolute;
-  bottom: 30px;
+  bottom: 10px;
   right: 25%;
   left: 50%;
   margin-left:-150px;
+}
+
+
+.buttons a:hover{
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 9px 9px 19px rgba(145, 92, 182, .4);
+
+}
+
+button{
+  cursor: pointer;
 }
 
 a{
@@ -34,6 +45,21 @@ a{
 }
 
 
+.header, hr{
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+.recipe-info li{
+  padding-left: 2px;
+  list-style: none;
+  margin-bottom: 8px; 
+}
+
+.recipe-info{
+  padding-left: 2px;
+}
+
 .direction{
   width: 250px;
 }
@@ -44,3 +70,24 @@ img{
   height: 300px;
   width: 300px;
 }
+
+
+
+img:hover{
+  height: 320px;
+  width: 320px;
+  transition-duration: 2s;
+  transform: rotate(5deg);
+}
+
+
+/*@keyframes image_glow {
+  from {
+    height: 300px;
+    width: 300px;
+  }
+  to {
+    height: 305px;
+    width: 305px;
+  }
+}*/
