@@ -29,42 +29,18 @@ a{
   text-decoration:none;
 }
 
-#p1{
+#p1, #p2, #p3, #p4, #p5{
   height: 630px;
-  background-image: url("pizza-resized.png");
-  background-repeat: no-repeat;
-  background-size: 550px;
-  background-position: right bottom;
-
 }
 
-#p2{
-  height: 630px;
-  background-image: url("rivioli-resized.png");
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: right bottom;
-
-}
-
-#p3{
-  height: 630px;
-  background-image: ;
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position: right bottom;
-
-}
-
-#p4{
-  height: 630px;
-  background-image: ;
-  background-repeat: no-repeat;
-  background-size: 400px;
-  background-position: right bottom;
-
-}
 
 .direction{
   width: 250px;
+}
+
+img{
+  float: right;
+  border-radius: 25px;
+  height: 300px;
+  width: 300px;
 }
