@@ -1,9 +1,19 @@
-body{
-  background-image: url('book.jpeg');
+body {
+    background-image: url('book.jpeg');
 }
 
-.table-wrapper { 
-    overflow-x:scroll;
+header {
+    background-image: url('food-header3.jpg');
+    text-align: center;
+    font-size: 30px;
+    margin: -5px;
+    border: 5px solid black;
+    color: #47460f;
+    text-shadow: 0 0 5px #dce4e6, 0 0 10px #dce4e6, 0 0 20px #dce4e6, 0 0 30px #dce4e6, 0 0 40px #dce4e6;
+}
+
+.table-wrapper {
+    overflow-x: scroll;
     overflow-x: hidden;
     margin-left: 500px;
     margin-right: auto;
@@ -11,73 +21,72 @@ body{
     scroll-behavior: smooth;
 }
 
-
-p{
-  width: 650px;
+p {
+    width: 650px;
 }
 
-.buttons{
-  position: absolute;
-  bottom: 10px;
-  right: 25%;
-  left: 50%;
-  margin-left:-150px;
+.buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 25%;
+    left: 50%;
+    margin-left: -150px;
 }
 
-
-.buttons a:hover{
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 9px 9px 19px rgba(145, 92, 182, .4);
-
+.buttons a:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 9px 9px 19px rgba(145, 92, 182, .4);
 }
 
-button{
-  cursor: pointer;
+button {
+    cursor: pointer;
 }
 
-a{
-  margin-left: 10px;
-  text-decoration:none;
+a {
+    margin-left: 10px;
+    text-decoration: none;
 }
 
-#p1, #p2, #p3, #p4, #p5{
-  height: 630px;
+#p1,
+#p2,
+#p3,
+#p4,
+#p5 {
+    height: 630px;
 }
 
-
-.header, hr{
-  margin-top: 1px;
-  margin-bottom: 0px;
+.header,
+hr {
+    margin-top: 1px;
+    margin-bottom: 0px;
 }
 
-.recipe-info li{
-  padding-left: 2px;
-  list-style: none;
-  margin-bottom: 8px; 
+.recipe-info li {
+    padding-left: 2px;
+    list-style: none;
+    margin-bottom: 8px;
 }
 
-.recipe-info{
-  padding-left: 2px;
+.recipe-info {
+    padding-left: 2px;
 }
 
-.direction{
-  width: 250px;
+.direction {
+    width: 250px;
 }
 
-img{
-  float: right;
-  border-radius: 25px;
-  height: 300px;
-  width: 300px;
+img {
+    float: right;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
 }
 
-
-
-img:hover{
-  height: 320px;
-  width: 320px;
-  transition-duration: 2s;
-  transform: rotate(5deg);
+img:hover {
+    height: 320px;
+    width: 320px;
+    transition-duration: 2s;
+    transform: rotate(5deg);
 }
 
 
