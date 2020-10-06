@@ -65,10 +65,8 @@ a {
 }
 
 td {
-    <<<<<<< HEAD width: 500px;
+    width: 500px;
     border: 1px solid black;
-    =======width: 500px;
-    >>>>>>>648a122df3bf7a9b52854125517b1769625c71e7
 }
 
 table {
