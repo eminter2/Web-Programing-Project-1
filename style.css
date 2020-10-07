@@ -10,7 +10,10 @@ header {
     border: 5px solid black;
     color: #47460f;
     text-shadow: 0 0 5px #dce4e6, 0 0 10px #dce4e6, 0 0 20px #dce4e6, 0 0 30px #dce4e6, 0 0 40px #dce4e6;
+}
 
+.cookbook {
+    width: 1920px;
 }
 
 .table-wrapper {
@@ -91,16 +94,15 @@ img:hover {
     transform: rotate(5deg);
 }
 
-.cookbook{
-  padding-left: 0px;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-  background-image: url('book.jpeg');  
-  height: 800px;
+.cookbook {
+    padding-left: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-image: url('book.jpeg');
+    height: 800px;
 }
-
 
 
 /*@keyframes image_glow {
